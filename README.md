@@ -1,6 +1,6 @@
 # GeekMagic S3 Display (No LVGL)
 
-ESPHome configuration for the GeekMagic SmallTV S3 that renders Home Assistant sensor data on the built-in 240×240 ST7789 display without depending on LVGL. A bit more info: https://www.vahac.com/how-to-display-home-assistant-sensor-data-on-the-geekmagic-smalltv-s3/
+ESPHome configuration for the GeekMagic SmallTV S3 that renders Home Assistant sensor data on the built-in 240×240 ST7789 display without depending on LVGL. A bit more info: https://www.vahac.com/how-to-display-home-assistant-sensor-data-on-the-geekmagic-smalltv-s3?utm_source=github
 
 ## Highlights
 - Draws a custom dashboard with temperature, humidity, barometric pressure, battery level, and the Home Assistant logo using pure `display.lambda` code.
@@ -58,4 +58,4 @@ The config enables a fallback AP called `Geekmagics3 Fallback Hotspot` (password
 - OTA/API issues usually stem from a wrong encryption key—double-check the value you pasted into Home Assistant.
 - Use the built-in web server or `logger` output (set `logger.level` to `DEBUG`) to inspect incoming sensor states and redraw timing.
 
-For step-by-step photos, enclosure notes, and automation ideas, read the accompanying blog post: https://www.vahac.com/how-to-display-home-assistant-sensor-data-on-the-geekmagic-smalltv-s3/
+For step-by-step photos, enclosure notes, and automation ideas, read the accompanying blog post: https://www.vahac.com/how-to-display-home-assistant-sensor-data-on-the-geekmagic-smalltv-s3?utm_source=github
