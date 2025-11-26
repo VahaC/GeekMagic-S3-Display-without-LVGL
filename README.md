@@ -1,6 +1,6 @@
 # GeekMagic S3 Display (No LVGL)
 
-ESPHome configuration for the GeekMagic SmallTV S3 that renders Home Assistant sensor data on the built-in 240×240 ST7789 display without depending on LVGL. A bit more info: [Building a Touch-Controlled Home Assistant Dashboard on an ESP32-S3 (with LVGL & ESPHome)(]https://www.vahac.com/how-to-display-home-assistant-sensor-data-on-the-geekmagic-smalltv-s3?utm_source=github)
+ESPHome configuration for the GeekMagic SmallTV S3 that renders Home Assistant sensor data on the built-in 240×240 ST7789 display without depending on LVGL. A bit more info: [Building a Touch-Controlled Home Assistant Dashboard on an ESP32-S3 (with LVGL & ESPHome)](https://www.vahac.com/how-to-display-home-assistant-sensor-data-on-the-geekmagic-smalltv-s3?utm_source=github)
 
 ## Highlights
 - Draws a custom dashboard with temperature, humidity, barometric pressure, battery level, and the Home Assistant logo using pure `display.lambda` code.
