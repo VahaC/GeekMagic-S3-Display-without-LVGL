@@ -58,4 +58,4 @@ The config enables a fallback AP called `Geekmagics3 Fallback Hotspot` (password
 - OTA/API issues usually stem from a wrong encryption key—double-check the value you pasted into Home Assistant.
 - Use the built-in web server or `logger` output (set `logger.level` to `DEBUG`) to inspect incoming sensor states and redraw timing.
 
-For step-by-step photos, enclosure notes, and automation ideas, read the accompanying blog post: https://www.vahac.com/how-to-display-home-assistant-sensor-data-on-the-geekmagic-smalltv-s3?utm_source=github
+For step-by-step photos, enclosure notes, and automation ideas, read the accompanying blog post: [Building a Touch-Controlled Home Assistant Dashboard on an ESP32-S3 (with LVGL & ESPHome)](https://www.vahac.com/how-to-display-home-assistant-sensor-data-on-the-geekmagic-smalltv-s3?utm_source=github)
